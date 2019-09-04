@@ -147,6 +147,28 @@ git commit -m "Added mods"
 git push origin
 ```
 
+Wait a minute, and your site should be ready to use. Here is the demo page: 
+
+https://css-tricks-demo.netlify.com/
+
 ## Editing content
 
-Done
+Now you can live edit the content and code for each mod. When viewing your own page (while also logged into AnyMod), you see a pencil on the right side:
+
+![AnyMod pencil](https://res.cloudinary.com/component/image/upload/v1567579140/permanent/css-tricks-07.png)
+
+Click the pencil and choose a mod. Now try making some edits to the content (or code) and notice that it updates on the page automatically in realtime.
+
+![AnyMod live edit](https://res.cloudinary.com/component/image/upload/v1567579649/permanent/css-tricks-live-edit.gif)
+
+You can use this method to make edits now or in 6 months when you've forgotten how the project is set up.
+
+## Form
+
+The form also works automatically.  Try submitting a message on your own page; the response will be emailed to you right away.
+
+## Conclusion
+
+You now have a great way to build fast, reliable, secure static sites. 
+
+Remember: with great power comes great responsibility.
