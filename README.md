@@ -64,6 +64,8 @@ Now edit the index.html file to add some basic HTML structure:
 ```
 git init
 git remote add origin https://github.com/tyrw/netlify-anymod.git
+git add -A
+git commit -m "Initial commit"
 git push origin
 ```
 
@@ -94,6 +96,56 @@ There are a lot to choose from, but we'll use mods from the [Editorial theme](ht
 #### Image gallery [[link](https://anymod.com/mod/card-section-balmaa)]
 
 ![Gallery](https://res.cloudinary.com/component/image/upload/w_400/v1567577534/permanent/css-tricks-06.png)
+
+## Clone and add mods
+
+Add these mods by clicking "Clone" for each one and then scroll down and copy/paste the installation code into the index.html file.  Also copy and paste your project script at the top.  
+
+Your index.html should now look something like this:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Netlify & AnyMod | CSS Tricks</title>
+
+    <!-- AnyMod -->
+    <script id="AnyMod-script">
+      (function (m,o,d,u,l,a,r,i,z,e) {
+        u[m]={Project:o,rq:[],Opts:r,ready:function(j){u[m].rq.push(j)}};function j(s){return encodeURIComponent(btoa(s))};z=l.getElementById(m+'-'+a);r=u.location;
+        e=[d+'/page/'+o+'/'+j(r.pathname)+'/'+j(r.host)+'?t='+Date.now(),d];e.map(function(w){i=l.createElement(a);i.defer=1;i.src=w;z.parentNode.insertBefore(i,z);});
+      })('AnyMod','82PEPN','https://cdn.anymod.com/v2',window,document,'script',{ toolkit: true, tips: true, priority: 3 });
+    </script>
+    <!-- /AnyMod -->
+  </head>
+  <body>
+    <!-- Professional side nav -->
+    <div id="anymod-mlrnbm"></div>
+
+    <!-- Intro section -->
+    <div id="anymod-ormard"></div>
+
+    <!-- Contact form -->
+    <div id="anymod-ralmam"></div>
+
+    <!-- Card section -->
+    <div id="anymod-balmaa"></div>
+  </body>
+</html>
+```
+
+And the page is ready to go. 
+
+Now save and push to GitHub to deploy the site:
+
+```
+git add -A
+git commit -m "Added mods"
+git push origin
+```
 
 ## Editing content
 
