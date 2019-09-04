@@ -66,7 +66,7 @@ git init
 git remote add origin https://github.com/tyrw/netlify-anymod.git
 git add -A
 git commit -m "Initial commit"
-git push origin
+git push --set-upstream origin master
 ```
 
 (Note: use your own repo URL for `git remote add origin`)
