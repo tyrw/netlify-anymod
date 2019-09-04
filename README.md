@@ -27,11 +27,11 @@ We’ll create a basic HTML file, track it with GitHub, and then auto-deploy wit
 
 Name it `netlify-anymod`:
 
-![](https://res.cloudinary.com/component/image/upload/v1567551219/permanent/css-tricks-01.png)
+![GitHub setup](https://res.cloudinary.com/component/image/upload/v1567551219/permanent/css-tricks-01.png)
 
 2. Connect Netlify to your repo [here](https://app.netlify.com/start).
 
-![](https://res.cloudinary.com/component/image/upload/v1567551534/permanent/css-tricks-02.png)
+![Netlify setup](https://res.cloudinary.com/component/image/upload/v1567551534/permanent/css-tricks-02.png)
 
 3. Create a folder on your computer and add a file named index.html. You can run the following in your terminal to do this:
 
